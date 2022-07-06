@@ -1,9 +1,9 @@
 [[OSQP_MKL]]
 arch = "x86_64"
-git-tree-sha1 = "bf414c2b2422585d7a55c059018574f2b0c59241"
+git-tree-sha1 = "a940c8095c3e5924757aedb32b91d52a5ce3e41b"
 libc = "glibc"
 os = "linux"
 
     [[OSQP_MKL.download]]
-    sha256 = "73f4731f0edfe237f9bcc2a66f02909a99c58831c93ccdefb8ff446d22067499"
+    sha256 = "484a3de52aa3d603c220e1b9c52233a41d04ac5a3595a8448f9db9f0b4d69713"
     url = "https://github.com/osqp/OSQP_MKL_jll.jl/releases/download/OSQP_MKL-v100.0.0+0/OSQP_MKL.v100.0.0.x86_64-linux-gnu.tar.gz"
