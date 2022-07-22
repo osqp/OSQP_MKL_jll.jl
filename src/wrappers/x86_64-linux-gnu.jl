@@ -2,11 +2,10 @@
 export osqp_mkl
 
 using MKL_jll
-using MKL_Headers_jll
 JLLWrappers.@generate_wrapper_header("OSQP_MKL")
 JLLWrappers.@declare_library_product(osqp_mkl, "libosqp_mkl.so")
 function __init__()
-    JLLWrappers.@generate_init_header(MKL_jll, MKL_Headers_jll)
+    JLLWrappers.@generate_init_header(MKL_jll)
     JLLWrappers.@init_library_product(
         osqp_mkl,
         "lib/libosqp_mkl.so",

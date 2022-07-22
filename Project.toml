@@ -7,11 +7,9 @@ JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 MKL_jll = "856f044c-d86e-5d09-b602-aeab76dc8ba7"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-MKL_Headers_jll = "b2f2f022-7a59-54f4-945e-e9b78c3fd545"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.0"
 MKL_jll = "2022.0.0"
-MKL_Headers_jll = "2022.0.0"
