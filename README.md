@@ -25,7 +25,6 @@ The tarballs for `OSQP_MKL_jll.jl` have been built from these sources:
 The following JLL packages are required by `OSQP_MKL_jll.jl`:
 
 * `MKL_jll`
-* `MKL_jll`
 
 ## Products
 
