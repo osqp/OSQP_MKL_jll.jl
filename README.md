@@ -10,18 +10,21 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `OSQP_MKL_jll.jl` have been built from these sources:
 
-* git repository: https://github.com/osqp/osqp.git (revision: `492b7b3b125da50b2e474225be20d5172df1d793`)
+* git repository: https://github.com/osqp/osqp.git (revision: `691a63e123f2015441c8ca0a1494db33ebe666f7`)
 
 ## Platforms
 
 `OSQP_MKL_jll.jl` is available for the following platforms:
 
+* `macOS x86_64` (`x86_64-apple-darwin`)
 * `Linux x86_64 {libc=glibc}` (`x86_64-linux-gnu`)
+* `Windows x86_64` (`x86_64-w64-mingw32`)
 
 ## Dependencies
 
 The following JLL packages are required by `OSQP_MKL_jll.jl`:
 
+* `MKL_jll`
 * `MKL_jll`
 
 ## Products
